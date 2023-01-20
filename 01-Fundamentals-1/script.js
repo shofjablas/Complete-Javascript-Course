@@ -72,4 +72,4 @@ x++; // x = x + 1
 x--;
 console.log(x);
 
-//빅
+//comparison operators 비교 연산자
