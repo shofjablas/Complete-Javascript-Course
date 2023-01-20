@@ -18,7 +18,7 @@ let myFirstJob = "Programmer";
 let myCurrentJob = "Teacher";
 
 let job1 = "Programmer";
-let job2 = "Teacher"; */
+let job2 = "Teacher"; 
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -39,4 +39,13 @@ console.log(typeof year);
 year = 2023;
 console.log(year);
 
-console.log(typeof null);
+console.log(typeof null); */
+
+// let age = 30;
+// age = 31;
+
+// const birthYear = 1981;
+// birthYear = 1980
+
+// var job = "programmer";
+// job = "teacher";
