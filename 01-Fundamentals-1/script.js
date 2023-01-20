@@ -49,3 +49,27 @@ console.log(typeof null); */
 
 // var job = "programmer";
 // job = "teacher";
+
+//math operators 수학 연산자
+const now = 2037;
+const ageJonas = now - 1991;
+const ageLisa = now - 1989;
+console.log(ageJonas, ageLisa);
+
+console.log(ageJonas * 3, ageJonas / 2, 2 ** 3);
+
+const firstName = "jonas";
+const lastName = "schmedtmann";
+console.log(firstName + " " + lastName);
+
+console.log(typeof "Jonas");
+
+//assignment operators 할당 연산자
+let x = 10 + 5; //15
+x += 10; // x = x + 15 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+console.log(x);
+
+//빅
