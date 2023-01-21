@@ -51,25 +51,45 @@ console.log(typeof null); */
 // job = "teacher";
 
 //math operators 수학 연산자
-const now = 2037;
-const ageJonas = now - 1991;
-const ageLisa = now - 1989;
-console.log(ageJonas, ageLisa);
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageLisa = now - 1989;
+// console.log(ageJonas, ageLisa);
 
-console.log(ageJonas * 3, ageJonas / 2, 2 ** 3);
+// console.log(ageJonas * 3, ageJonas / 2, 2 ** 3);
 
-const firstName = "jonas";
-const lastName = "schmedtmann";
-console.log(firstName + " " + lastName);
+// const firstName = "jonas";
+// const lastName = "schmedtmann";
+// console.log(firstName + " " + lastName);
 
-console.log(typeof "Jonas");
+// console.log(typeof "Jonas");
 
 //assignment operators 할당 연산자
-let x = 10 + 5; //15
-x += 10; // x = x + 15 = 25
-x *= 4; // x = x * 4 = 100
-x++; // x = x + 1
-x--;
-console.log(x);
+// let x = 10 + 5; //15
+// x += 10; // x = x + 15 = 25
+// x *= 4; // x = x * 4 = 100
+// x++; // x = x + 1
+// x--;
+// console.log(x);
 
 //comparison operators 비교 연산자
+// console.log(ageJonas > ageLisa);
+// console.log(ageJonas >= 19);
+
+// const isFullAge = ageJonas >= 19;
+// console.log(isFullAge);
+
+// console.log(now - 1991 > now - 1989);
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageLisa = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageJonas + ageLisa) / 2;
+console.log(ageJonas, ageLisa, averageAge);
