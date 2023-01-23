@@ -81,15 +81,40 @@ console.log(typeof null); */
 
 // console.log(now - 1991 > now - 1989);
 
-const now = 2037;
-const ageJonas = now - 1991;
-const ageLisa = now - 2018;
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageLisa = now - 2018;
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
-let x, y;
-x = y = 25 - 10 - 5;
-console.log(x, y);
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
 
-const averageAge = (ageJonas + ageLisa) / 2;
-console.log(ageJonas, ageLisa, averageAge);
+// const averageAge = (ageJonas + ageLisa) / 2;
+// console.log(ageJonas, ageLisa, averageAge);
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = "1991";
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + " ,a " + (year - birthYear) + "years old " + job + "!";
+console.log(jonas);
+
+//템플릿 리터럴을 사용했을 때
+const jonasNew = `I'am ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regulat string`);
+
+console.log(
+  "String with \n\
+multiple \n\
+linse"
+);
+
+console.log(`String with
+multiple
+linse`);
