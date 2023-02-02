@@ -150,10 +150,135 @@ console.log(typeof NaN);
 console.log(String(23), 23);
 
 //type coercion
-console.log("I am " + 23 + "years old");
-console.log("I am " + "23" + "years old");
+// console.log("I am " + 23 + "years old");
+// console.log("I am " + "23" + "years old");
 
-console.log("23" - "10" - 3);
-console.log("23" + "10" + 3);
-console.log("23" * "2");
-console.log("23" / "2");
+// console.log("23" - "10" - 3);
+// console.log("23" + "10" + 3);
+// console.log("23" * "2");
+// console.log("23" / "2");
+
+// let n = "1" + 1;
+// n = n - 1;
+// console.log(n);
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Jonas"));
+// console.log(Boolean({}));
+// console.log(Boolean(""));
+
+// const money = 90;
+// if (money) {
+//   console.log("Don't spend it all");
+// } else {
+//   console.log("You shoud get a job");
+// }
+
+// let height; //값을 할당 안받았구나..
+// if (height) {
+//   console.log("YAY! Height is defined");
+// } else {
+//   console.log("Height is UNDEFINED");
+// }
+
+// const age = "19";
+// if (age === 19) console.log("You Just Becaome Adult(일치 비교 연산자)");
+
+// if (age == 19) console.log("You Just Becaome Adult(동등 비교 연산자)");
+
+// const favorite = Number(prompt("What's your favorite number?"));
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if (favorite === 23) {
+//   //'23' == 23 | 22 === 23 -> False
+//   console.log("Cool! 23 is an amazing number");
+// } else if (favorite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favorite === 9) {
+//   console.log("9 is also a cool number");
+// } else {
+//   console.log("Number is not 23 or 7");
+// }
+
+// if (favorite !== 23) console.log("Why not 23?");
+
+// const hasDriversLicense = true; //변수 A
+// const hasGoodVision = false; // 변수 B
+
+// console.log(hasDriversLicense && hasGoodVision); //AND 연산자
+// console.log(hasDriversLicense || hasGoodVision); //OR 연산자
+// console.log(!hasDriversLicense); //NOT 연산자
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Shara is able to drive");
+// } else {
+//   console.log("Someone else should drive");
+// }
+
+// const isTired = true; //변수 C
+// console.log(hasDriversLicense || hasGoodVision || isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log("Shara is able to drive");
+// } else {
+//   console.log("Someone else should drive");
+// }
+
+const day = "monday";
+
+// switch (day) {
+//   case "monday": //day === ' monday'
+//     console.log("Pan course structure");
+//     console.log("Go to meetup");
+//     break;
+//   case " tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "wensday":
+//   case "thursay":
+//     console.log("Write code exmpels");
+//     break;
+//   case "friday":
+//     console.log("Record videos");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Enjoy the weekend :D");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+// if (day === "monday") {
+//   console.log("Pan course structure");
+//   console.log("Go to meetup");
+// } else if (day === "tuesday") {
+//   console.log("Prepare theory videos");
+// } else if (day === "wensday" || day === "thursday") {
+//   console.log("Write code exmpels");
+// } else if (day === "friday") {
+//   console.log("Record videos");
+// } else if (day === "saturday" || day === "sunday") {
+//   console.log("Enjoy the weekend :D");
+// } else {
+//   console.log("Not a valid day!");
+// }
+
+const age = 23;
+// age >= 19
+//   ? console.log("I like to drink water")
+//   : console.log("I like to drink milk");
+
+const drink = age >= 19 ? "water " : "milk";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = "water";
+} else {
+  drink2 = "milk";
+}
+
+console.log(`I like to drink ${age >= 19 ? "water " : "milk"}`);
