@@ -85,7 +85,7 @@ console.log(appleOrangeJuice);
 // }
 
 // console.log(fruitProcessor(2, 3));
-
+/*
 const calcAge = function (birthYear) {
   return 2037 - birthYear;
 };
@@ -106,3 +106,50 @@ const yearsUltRetirement = function (birthYear, firstname) {
 //if블록에 어떤 코드든 넣을 수 있다.
 console.log(yearsUltRetirement(1991, "Jonas")); //1991은 93번째 줄의 birthYear이다.
 console.log(yearsUltRetirement(1950, "Mike"));
+*/
+
+const friend1 = "Michael";
+const friend2 = "Steve";
+const friend3 = "Peter";
+
+const friends = ["Michael", "Steve", "Peter"];
+console.log(friends);
+
+const y = new Array(1991, 1984, 2008, 2020);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Jay";
+console.log(friends);
+console.log(friends[2]);
+
+// 전체 배열을 대체할 수 없다.
+// friends = ["Bob, Alice"];
+
+const fristName = "Jonas";
+const jonas = [fristName, "Schmedtman", 2037 - 1991, "teacher", friends];
+console.log(jonas);
+
+//Exercise
+const calcAge = function (birthYear) {
+  return 2037 - birthYear;
+};
+
+const years = [1990, 1967, 2002, 2010, 2018];
+
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+
+console.log(age1, age2, age3);
+
+const ages = [
+  calcAge(years[0]),
+  calcAge(years[1]),
+  calcAge(years[years.length - 1]),
+];
+console.log(ages);
