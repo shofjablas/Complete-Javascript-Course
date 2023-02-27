@@ -107,6 +107,7 @@ const yearsUltRetirement = function (birthYear, firstname) {
 console.log(yearsUltRetirement(1991, "Jonas")); //1991은 93번째 줄의 birthYear이다.
 console.log(yearsUltRetirement(1950, "Mike"));
 */
+/*
 
 const friend1 = "Michael";
 const friend2 = "Steve";
@@ -153,3 +154,34 @@ const ages = [
   calcAge(years[years.length - 1]),
 ];
 console.log(ages);
+*/
+
+//추가되는 요소
+const friends = ["Michael", "Steve", "Peter"];
+const newLength = friends.push("Jay");
+console.log(friends);
+console.log(newLength);
+
+friends.unshift("John");
+console.log(friends);
+
+//제거되는 요소
+friends.pop(); //last
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); //frist
+console.log(friends);
+
+console.log(friends.indexOf("Steve"));
+console.log(friends.indexOf("Bob"));
+
+friends.push(23);
+console.log(friends.includes("Steve"));
+console.log(friends.includes("Bob"));
+console.log(friends.includes(23));
+
+if (friends.includes("Steve")) {
+  console.log("You have a friend called Steve");
+}
