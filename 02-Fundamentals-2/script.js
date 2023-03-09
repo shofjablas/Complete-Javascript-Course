@@ -157,31 +157,118 @@ console.log(ages);
 */
 
 //추가되는 요소
-const friends = ["Michael", "Steve", "Peter"];
-const newLength = friends.push("Jay");
-console.log(friends);
-console.log(newLength);
+// const friends = ["Michael", "Steve", "Peter"];
+// const newLength = friends.push("Jay");
+// console.log(friends);
+// console.log(newLength);
 
-friends.unshift("John");
-console.log(friends);
+// friends.unshift("John");
+// console.log(friends);
 
 //제거되는 요소
-friends.pop(); //last
-const popped = friends.pop();
-console.log(popped);
-console.log(friends);
+// friends.pop(); //last
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
 
-friends.shift(); //frist
-console.log(friends);
+// friends.shift(); //frist
+// console.log(friends);
 
-console.log(friends.indexOf("Steve"));
-console.log(friends.indexOf("Bob"));
+// console.log(friends.indexOf("Steve"));
+// console.l`og(friends.indexOf("Bob"));
 
-friends.push(23);
-console.log(friends.includes("Steve"));
-console.log(friends.includes("Bob"));
-console.log(friends.includes(23));
+// friends.push(23);
+// console.log(friends.includes("Steve"));
+// console.log(friends.includes("Bob"));
+// console.log(friends.includes(23));
 
-if (friends.includes("Steve")) {
-  console.log("You have a friend called Steve");
-}
+// if (friends.includes("Steve")) {
+//   console.log("You have a friend called Steve");
+// }
+
+// const jonasArray = [
+//   "Jonas",
+//   "Schmedtmann",
+//   2037 - 1991,
+//   "teacher",
+//   [("Michael", "Peter", "Steve")],
+// ];
+
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Schmedtmann",
+//   age: 2037 - 1991,
+//   job: "teacher",
+//   friends: [("Michael", "Peter", "Steve")],
+// };
+
+// console.log(jonas);
+
+// console.log(jonas.lastName);
+// console.log(jonas["lastName"]);
+
+// const nameKey = "Name";
+// console.log(jonas["first" + nameKey]);
+// console.log(jonas["last" + nameKey]);
+
+// console.log(jonas.["first" + nameKey]);
+
+// prompt(
+//   "what do you want to know about Jonas? Choose between firstName, lastNAme, age, job and friends."
+// );
+
+// const interstedIn = prompt(
+//   "what do you want to know about Jonas? Choose between firstName, lastNAme, age, job and friends."
+// );
+// console.log(jonas[interstedIn]);
+
+// if (jonas[interstedIn]) {
+//   console.log(jonas[interstedIn]);
+// } else {
+//   console.log(
+//     "Wrong request! Choose between firstName, lastNAme, age, job and friends."
+//   );
+// }
+
+// jonas.locationi = "Portugal";
+// jonas["twitter"] = "@jonasschmedtman";
+// console.log(jonas);
+
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Schmedtmann",
+//   birthYear: 1991,
+//   job: "teacher",
+//   friends: [("Michael", "Peter", "Steve")],
+//   hasDriverLicense: true,
+
+// calcAge: function (birthYear) {
+//   return 2037 - birthYear;
+// },
+
+// calcAge: function () {
+//   console.log(this);
+//   return 2037 - birthYear;
+// },
+
+//   calcAge: function () {
+//     this.age = 2037 - this.birthYear;
+//     return this.age;
+//   },
+// };
+
+// console.log(jonas.calcAge(1991));
+//console.log(jonas["calcAge"](1991));
+
+console.log("Lifting weights repetition 1 🏋");
+console.log("Lifting weights repetition 2 🏋");
+console.log("Lifting weights repetition 3 🏋");
+console.log("Lifting weights repetition 4 🏋");
+console.log("Lifting weights repetition 5 🏋");
+console.log("Lifting weights repetition 6 🏋");
+console.log("Lifting weights repetition 7 🏋");
+console.log("Lifting weights repetition 8 🏋");
+console.log("Lifting weights repetition 9 🏋");
+console.log("Lifting weights repetition 10 🏋");
+
+for()
